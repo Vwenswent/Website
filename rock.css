@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+}
+
+.button-container {
+    padding: 1rem;
+    margin: .2rem;
+    width: 10rem;
+    border-radius: 1rem;
+}
+

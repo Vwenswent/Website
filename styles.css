@@ -1,0 +1,56 @@
+/* #B5C2B7
+#8C93A8
+#454545 */
+
+body {
+    background-color: #B5C2B7; 
+    font-family: Arial, Helvetica, sans-serif ;
+    letter-spacing: 1px;
+}
+
+#hero {
+     text-align: center;
+     padding: 5rem;
+}
+
+#hero > h3 {
+    margin-top: 0;
+}
+
+#hero > h1 {
+    margin-bottom: 0;
+} 
+
+#hero > p {
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+#hero img {
+    border-radius: 20px;
+}
+
+hr {
+     border-radius: 100px;
+     width: 50%;
+}
+
+.experience {
+    width: 20rem;
+    margin: 1rem;
+    padding: 2rem;
+    border-width: 2px;
+    border-style: dotted;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+}
+
+#experience-title {
+    text-align: center;
+}
+
+.experience-container {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
