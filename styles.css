@@ -25,7 +25,7 @@ body {
 } 
 
 #hero > p {
-    letter-spacing: 1px;
+    letter-spacing: .5px;
     line-height: 25px;
 }
 
@@ -55,7 +55,10 @@ hr {
 
 #education > h2 {
     margin-top: 0;
-    
+}
+
+#education > p {
+    letter-spacing: .5px;
 }
 
 .experience {
@@ -76,4 +79,12 @@ hr {
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.experience > h2 {
+    text-align: center;
+}
+
+.experience > h4 {
+    text-align: center;
 }
