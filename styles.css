@@ -9,8 +9,11 @@ body {
 }
 
 #hero {
-     text-align: center;
-     padding: 5rem;
+    text-align: center;
+    padding-top: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 3rem;
 }
 
 #hero > h3 {
@@ -33,6 +36,26 @@ body {
 hr {
      border-radius: 100px;
      width: 50%;
+}
+
+#education-title {
+    text-align: center;
+    padding-top: 3rem;
+    margin-bottom: 0;
+}
+
+#education {
+    text-align: center;
+    padding-top: 0;
+    padding-left: 5rem;
+    padding-right: 5rem; 
+    padding-bottom: 3rem;   
+    letter-spacing: 1px;
+}
+
+#education > h2 {
+    margin-top: 0;
+    
 }
 
 .experience {
